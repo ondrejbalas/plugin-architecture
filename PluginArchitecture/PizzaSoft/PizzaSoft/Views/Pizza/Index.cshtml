@@ -1,0 +1,50 @@
+﻿@model PizzaSoft.Models.PizzaCreationViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 class="text-center">@Model.HeaderText</h2>
+
+@if (Model.ShowValidationMessage)
+{
+    <div class="text-center alert alert-error">
+        @Model.ValidationMessage
+    </div>
+}
+
+@if (!string.IsNullOrWhiteSpace(Model.DetailsHtml))
+{
+    <div class="text-center">@Html.Raw(Model.DetailsHtml)</div>
+}
+
+<div style="width: 120px; margin: auto;">
+    @using (Html.BeginForm())
+    {
+        @Html.Hidden("CurrentStepName", Model.CurrentStepName);
+        @Html.Hidden("StateId", Model.CurrentStateId);
+        
+        if (Model.CanSelectMultiple)
+        {
+            foreach (var option in Model.Options)
+            {
+                <label class="checkbox">
+                    <input type="checkbox" name="SelectedOptions" value="@option"> @option
+                </label>
+            }
+            
+            <input type="submit" class="btn btn-block" value="Submit" />
+        }
+        else
+        {
+            foreach (var option in Model.Options)
+            {
+                <div style="margin: 6px;">
+                    <input name="SelectedOptions" type="submit" class="btn btn-block" value="@option" />
+                </div>
+            }
+        }
+    }
+</div>
+
+<div class="text-center">@Html.ActionLink("Start Over", "Index", new { id = ""})</div>

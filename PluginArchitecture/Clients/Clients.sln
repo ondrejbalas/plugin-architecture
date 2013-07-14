@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clients.BigAl", "Clients.BigAl\Clients.BigAl.csproj", "{50B7379C-61D6-4564-90E0-C0C6E67C1D51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clients.PapaPizza", "Clients.PapaPizza\Clients.PapaPizza.csproj", "{8E2FF5B1-407C-4943-81E2-E002B07260C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clients.TommyTaco", "Clients.TommyTaco\Clients.TommyTaco.csproj", "{9FBF77DC-56B5-4524-9B7C-76CAFC96B690}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50B7379C-61D6-4564-90E0-C0C6E67C1D51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50B7379C-61D6-4564-90E0-C0C6E67C1D51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50B7379C-61D6-4564-90E0-C0C6E67C1D51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50B7379C-61D6-4564-90E0-C0C6E67C1D51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E2FF5B1-407C-4943-81E2-E002B07260C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E2FF5B1-407C-4943-81E2-E002B07260C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E2FF5B1-407C-4943-81E2-E002B07260C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E2FF5B1-407C-4943-81E2-E002B07260C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FBF77DC-56B5-4524-9B7C-76CAFC96B690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FBF77DC-56B5-4524-9B7C-76CAFC96B690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FBF77DC-56B5-4524-9B7C-76CAFC96B690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FBF77DC-56B5-4524-9B7C-76CAFC96B690}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaSoft", "PizzaSoft\PizzaSoft.csproj", "{9EE35914-6ACE-4FC8-BCD1-57479ABC6D91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaSoft.Plugins", "PizzaSoft.Plugins\PizzaSoft.Plugins.csproj", "{C0415DD2-1BC3-48C3-AD87-B5FB1A60E09D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaSoft.Domain", "PizzaSoft.Domain\PizzaSoft.Domain.csproj", "{97CAB3E7-3F56-4491-8923-195785468749}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EE35914-6ACE-4FC8-BCD1-57479ABC6D91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE35914-6ACE-4FC8-BCD1-57479ABC6D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE35914-6ACE-4FC8-BCD1-57479ABC6D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EE35914-6ACE-4FC8-BCD1-57479ABC6D91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0415DD2-1BC3-48C3-AD87-B5FB1A60E09D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0415DD2-1BC3-48C3-AD87-B5FB1A60E09D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0415DD2-1BC3-48C3-AD87-B5FB1A60E09D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0415DD2-1BC3-48C3-AD87-B5FB1A60E09D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97CAB3E7-3F56-4491-8923-195785468749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97CAB3E7-3F56-4491-8923-195785468749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97CAB3E7-3F56-4491-8923-195785468749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97CAB3E7-3F56-4491-8923-195785468749}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
