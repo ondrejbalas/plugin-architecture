@@ -16,6 +16,8 @@ namespace _4_ConsoleEncrypter
             
             // Do the program logic
             consoleEncrypter.GetAndEncryptInput();
+
+            Console.ReadLine();
         }
     }
 }

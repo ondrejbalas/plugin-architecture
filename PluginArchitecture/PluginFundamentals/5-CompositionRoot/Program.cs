@@ -14,6 +14,8 @@ namespace _5_CompositionRoot
 
             ConsoleEncrypter consoleEncrypter = compositionRoot.GetConsoleEncrypter();
             consoleEncrypter.GetAndEncryptInput();
+
+            Console.ReadLine();
         }
     }
 }

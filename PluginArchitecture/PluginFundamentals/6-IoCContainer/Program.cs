@@ -14,6 +14,8 @@ namespace _6_IoCContainer
 
             ConsoleEncrypter consoleEncrypter = compositionRoot.GetConsoleEncrypter();
             consoleEncrypter.GetAndEncryptInput();
+
+            Console.ReadLine();
         }
     }
 }

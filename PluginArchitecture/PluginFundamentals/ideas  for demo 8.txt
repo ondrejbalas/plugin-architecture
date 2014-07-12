@@ -1,0 +1,5 @@
+load the loader into separate appdomain
+find right dll
+loader loads right dll
+loader is passed callback
+that callback is called from the thread that is in the other appdomain

@@ -14,6 +14,8 @@ namespace _7a_Policy
 
             ConsoleEncrypter consoleEncrypter = compositionRoot.GetConsoleEncrypter();
             consoleEncrypter.GetAndEncryptInput();
+
+            Console.ReadLine();
         }
     }
 }
